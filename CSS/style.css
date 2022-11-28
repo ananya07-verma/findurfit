@@ -1,0 +1,655 @@
+header {
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    background: url('background_image/bg.jpg');
+    height: 68rem;
+    top: -1.5rem;
+    left: -.8rem;
+    margin-right: -.8rem;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    border: .2rem black;
+    left: 3.4rem;
+    top: 1.5rem;
+}
+
+.left img {
+    width: 4rem;
+    margin: .2rem 1.8rem;
+    border-radius: 10rem;
+
+}
+
+.left div {
+    line-height: .7rem;
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 1.5rem auto;
+}
+
+.right {
+    position: absolute;
+    right: 3.4rem;
+    top: 1.5rem;
+    display: inline-block;
+    border: .2rem solid black;
+
+}
+
+/* Navigation Bar: Styling */
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 1.7rem;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 3.4rem 2.3rem;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+/*Hamburger Icon*/
+.ham-icon {
+    display: none;
+}
+
+.btn {
+    font-family: 'Mulish', sans-serif;
+    margin: .0rem .9rem;
+    background-color: white;
+    color: rgb(5, 0, 0);
+    padding: .4rem 1.4rem;
+    border: .2rem grey;
+    border-radius: 1.0rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+/* CSS of Home buttons */
+#msg1 {
+    color: white;
+    display: none;
+    font-size: 1.4rem;
+    padding-top: 0.7rem;
+}
+
+#msg2 {
+    color: white;
+    display: none;
+    font-size: 1.4rem;
+    padding-top: 0.7rem;
+    float: right;
+}
+
+/*Home Section*/
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#home p {
+    color: lavenderblush;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+.h-primary {
+    font-size: 3.8rem;
+    padding: 22px;
+    color: whitesmoke;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+
+.p1 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.para1 {
+    font-size: 1.6rem;
+}
+
+/*form*/
+#top-heading {
+    font-size: 2rem;
+    color: azure;
+}
+
+#para {
+    font-size: 1.6rem;
+}
+
+/*Animation Of Heading*/
+.colorchange {
+    animation: colorchangefind 1s infinite;
+}
+
+@keyframes colorchangefind {
+    0% {
+        color: rosybrown
+    }
+
+    25% {
+        color: thistle
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: teal
+    }
+}
+
+.btn-1 {
+    font-family: 'Mulish', sans-serif;
+    display: inline-block;
+    margin: 1.5rem 2rem;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    background-color: white;
+    color: rgb(5, 0, 0);
+    padding: 1.4rem 2rem;
+    border: .2rem grey;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: red;
+}
+
+.services-container {
+    background: url('background_image/bg1.jpg');
+    top: -5.4rem;
+    left: -.8rem;
+    margin-right: -.8rem;
+    margin-bottom: -4rem;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.h-primary1 {
+    font-size: 7rem;
+    margin-bottom: 1.3rem;
+    color: thistle;
+    font-weight: lighter;
+}
+
+.item {
+    margin-right: -4rem;
+    margin-top: -4.5rem;
+
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: -50%;
+}
+
+.carousel-caption {
+    color: paleturquoise;
+    font-weight: lighter;
+}
+
+.last {
+    background: url('background_image/bg1.jpg');
+    top: -5.4rem;
+    left: -.8rem;
+    margin-right: -.8rem;
+    margin-bottom: -10rem;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.pic {
+    margin-top: -11.0rem;
+}
+
+.h-primary2 {
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    display: inline;
+}
+
+.heading {
+    font-family: 'Mulish', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: lighter;
+    position: relative;
+    margin-top: -7.5rem;
+    margin-left: 40rem;
+}
+
+.picture {
+    margin-top: -7rem;
+}
+
+
+/*last*/
+.last-page {
+    background-color: black;
+    height: 60rem;
+    width: 100%;
+    margin-top: -6rem;
+}
+
+/*form styling*/
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60rem;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 1.2rem;
+    border: .1rem solid #ccc;
+    margin-top: 0.6rem;
+    margin-bottom: 1.6rem;
+    resize: vertical;
+    color: cornsilk;
+}
+
+
+
+
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: cornsilk;
+    padding: 1.2rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#h1 {
+    color: cornsilk;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: .5rem;
+    background-color: black;
+    padding: .5rem;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60rem;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 0.6rem;
+    padding: 1.5rem;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+/*Social Media icons*/
+.socialMedia-icons {
+    align-items: center;
+    margin-top: 38rem;
+    margin-left: 50rem;
+    width: 50rem;
+    position: absolute;
+}
+
+
+
+.fa {
+    padding: 2rem;
+    font-size: 3rem;
+    width: 5rem;
+    text-align: center;
+    text-decoration: none;
+    margin: .5rem .2rem;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+
+
+}
+
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: rgb(226, 32, 152);
+    color: white;
+}
+
+#endPage {
+    margin-top: -1px;
+    ;
+    background-color: black;
+    height: 50rem;
+}
+
+.last-footer {
+    width: 100%;
+    height: 35%;
+    background-color: rgb(183, 189, 107);
+    color: black;
+    margin-top: 3rem;
+}
+
+.Footer_inner_left {
+    color: black;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/*Workout Page*/
+
+/*Images for Workout Page*/
+
+.imagee1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: 4rem;
+}
+
+.imagee2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: 60rem;
+}
+
+.imagee3 {
+    display: block;
+    width: 100%;
+    height: 80%;
+    margin-left: 2rem;
+
+}
+
+/*Image overlay slide*/
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    margin-left: 65rem;
+    left: 0;
+    right: 0;
+    background-color: goldenrod;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .3s ease;
+}
+
+.overlayy {
+    position: absolute;
+    bottom: 100%;
+    margin-left: 2rem;
+    left: 0;
+    right: 0;
+    background-color: palevioletred;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+
+}
+
+.overlayyy {
+    position: absolute;
+    bottom: 100%;
+    margin-left: 60rem;
+    left: 0;
+    right: 0;
+    background-color: rgb(189, 66, 66);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+
+}
+
+.container:hover .overlayy {
+    bottom: 0;
+    height: 100%;
+}
+
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.container:hover .overlayyy {
+    bottom: 0;
+    height: 100%;
+}
+
+/*Text*/
+
+.text {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Headings For workout Page*/
+.headd {
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.headdd {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-left: 76rem;
+}
+
+.headddd {
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-left: 23rem;
+}
+
+/*BMI Calculator*/
+.card {
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    background: url(background_image/bg4.jpg);
+    opacity: 1;
+    height: 60rem;
+    top: -1.5rem;
+    left: -.8rem;
+    margin-left: -8rem;
+    margin-right: -9.3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.form-group {
+    color: black;
+}
+
+.card-header {
+    color: black;
+    font-size: 2rem;
+}
+
+.card-footer {
+    color: white;
+}
+
+/*for Header Responsiveness */
+
+/*We know that 100%= 16rem and 1rem=16px default font-size*/
+/* we want here 10rem as our default size*/
+/*so we'll divide 10/16 =.625*100=62.5 */
+/*font-size:62.5%;*/
+/* now font-size:62.5%=10px=1rem*/
+
+html {
+    font-size: 62.5%;
+
+}
+
+/*header responsiveness*/
+@media(max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 45%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .ham-icon {
+        display: inline-block;
+        color: white;
+        margin-top: 0.5rem;
+        margin-right: 7.0rem;
+        margin-left: -9.5rem;
+        font-size: 3.5rem;
+    }
+
+    .navbar {
+        float: right;
+    }
+
+    .navbar li {
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .socialMedia-icons {
+        align-items: left;
+        margin-left: 30rem;
+        margin-top: 42rem;
+    }
+
+    .container {
+        height: 65rem;
+    }
+
+    #top-heading {
+        margin-top: 6rem;
+    }
+}
